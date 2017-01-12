@@ -16,5 +16,6 @@ public class Main2Activity extends AppCompatActivity {
 
     public void refreshText(View v) {
         RxBus.get().post("PostFromMain2", "Text from Main2Activity");
+        // Feature 02
     }
 }
